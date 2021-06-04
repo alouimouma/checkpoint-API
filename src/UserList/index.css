@@ -1,0 +1,47 @@
+
+.list-users {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card {
+  border-radius: 5px;
+  width: 800px;
+  display: flex;
+  margin: 15px;
+  background: #9ef1f7;
+   
+
+}
+span,
+.description {
+    color: #0f0f0f;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.title {
+    color: #f0610e;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.profile-img {
+  
+  margin-right:50px;
+  padding: 10px;
+}
+.profile-img img {
+  border-radius: 50%;
+  width: 200px;
+}
+.adress span {
+  margin-right: 7px;
+}
+h2 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #f50daf;
+  font-size: 35px;
+}
